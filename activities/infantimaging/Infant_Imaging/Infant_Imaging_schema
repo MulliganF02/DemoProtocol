@@ -1,0 +1,390 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Infant_Imaging_schema",
+    "prefLabel": "Screening",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/hello_baby1",
+                "variableName": "hello_baby1",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby2",
+                "variableName": "hello_baby2",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby3",
+                "variableName": "hello_baby3",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby4",
+                "variableName": "hello_baby4",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby5",
+                "variableName": "hello_baby5",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby6",
+                "variableName": "hello_baby6",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby7",
+                "variableName": "hello_baby7",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby8",
+                "variableName": "hello_baby8",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby9",
+                "variableName": "hello_baby9",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby10",
+                "variableName": "hello_baby10",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby11",
+                "variableName": "hello_baby11",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby12",
+                "variableName": "hello_baby12",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby13",
+                "variableName": "hello_baby13",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby14",
+                "variableName": "hello_baby14",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby15",
+                "variableName": "hello_baby15",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon1",
+                "variableName": "night_moon1",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon2",
+                "variableName": "night_moon2",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon3",
+                "variableName": "night_moon3",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon4",
+                "variableName": "night_moon4",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon5",
+                "variableName": "night_moon5",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon6",
+                "variableName": "night_moon6",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon7",
+                "variableName": "night_moon7",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon8",
+                "variableName": "night_moon8",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon9",
+                "variableName": "night_moon9",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon10",
+                "variableName": "night_moon10",
+                "isVis": true
+                },
+                {"isAbout": "items/owl_babies1",
+                "variableName": "owl_babies1",
+                "isVis": true
+                }
+                {"isAbout": "items/owl_babies2",
+                "variableName": "owl_babies2",
+                "isVis": true
+                }
+                {"isAbout": "items/owl_babies3",
+                "variableName": "owl_babies3",
+                "isVis": true
+                }
+                {"isAbout": "items/owl_babies4",
+                "variableName": "owl_babies4",
+                "isVis": true
+                }
+                {"isAbout": "items/owl_babies5",
+                "variableName": "owl_babies5",
+                "isVis": true
+                }
+                {"isAbout": "items/owl_babies6",
+                "variableName": "owl_babies6",
+                "isVis": true
+                }
+                {"isAbout": "items/owl_babies7",
+                "variableName": "owl_babies7",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_1",
+                "variableName": "tvhc_1",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_2",
+                "variableName": "tvhc_2",
+                "isVis": true
+                }
+                {"isAbout": ""items/tvhc_3",
+                "variableName": "tvhc_3",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_4",
+                "variableName": "tvhc_4",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_5",
+                "variableName": "tvhc_5",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_6",
+                "variableName": "tvhc_6",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_7",
+                "variableName": "tvhc_7",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_8",
+                "variableName": "tvhc_8",
+                "isVis": true
+                }
+                {"isAbout": "items/tvhc_9",
+                "variableName": "tvhc_9",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_1",
+                "variableName": "ghmily_1",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_2",
+                "variableName": "ghmily_2",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_3",
+                "variableName": "ghmily_3",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_4",
+                "variableName": "ghmily_4",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_5",
+                "variableName": "ghmily_5",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_6",
+                "variableName": "ghmily_6",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_7",
+                "variableName": "ghmily_7",
+                "isVis": true
+                }
+                {"isAbout": "items/ghmily_8",
+                "variableName": "ghmily_8",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_1",
+                "variableName": "ilysf_1",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_2",
+                "variableName": "ilysf_2",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_3",
+                "variableName": "ilysf_3",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_4",
+                "variableName": "ilysf_4",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_5",
+                "variableName": "ilysf_5",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_6",
+                "variableName": "ilysf_6",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_7",
+                "variableName": "ilysf_7",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_8",
+                "variableName": "ilysf_8",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_9",
+                "variableName": "ilysf_9",
+                "isVis": true
+                }
+                {"isAbout": "items/ilysf_10",
+                "variableName": "ilysf_10",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby1",
+                "variableName": "hello2_baby1",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby2",
+                "variableName": "hello2_baby2",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby3",
+                "variableName": "hello2_baby3",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby4",
+                "variableName": "hello2_baby4",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby5",
+                "variableName": "hello2_baby5",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby6",
+                "variableName": "hello2_baby6",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby7",
+                "variableName": "hello2_baby7",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby8",
+                "variableName": "hello2_baby8",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby9",
+                "variableName": "hello2_baby9",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby10",
+                "variableName": "hello2_baby10",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby11",
+                "variableName": "hello2_baby11",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby12",
+                "variableName": "hello2_baby12",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby13",
+                "variableName": "hello2_baby13",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby14",
+                "variableName": "hello2_baby14",
+                "isVis": true
+                }
+                {"isAbout": "items/hello2_baby15",
+                "variableName": "hello2_baby15",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/hello_baby1",
+            "items/hello_baby2",
+            "items/hello_baby3",
+            "items/hello_baby4",
+            "items/hello_baby5",
+            "items/hello_baby6",
+            "items/hello_baby7",
+            "items/hello_baby8",
+            "items/hello_baby9",
+            "items/hello_baby10",
+            "items/hello_baby11",
+            "items/hello_baby12",
+            "items/hello_baby13",
+            "items/hello_baby14",
+            "items/hello_baby15",
+            "items/night_moon1",
+            "items/night_moon2",
+            "items/night_moon3",
+            "items/night_moon4",
+            "items/night_moon5",
+            "items/night_moon6",
+            "items/night_moon7",
+            "items/night_moon8",
+            "items/night_moon9",
+            "items/night_moon10",
+            "items/owl_babies1",
+            "items/owl_babies2",
+            "items/owl_babies3",
+            "items/owl_babies4",
+            "items/owl_babies5",
+            "items/owl_babies6",
+            "items/owl_babies7",
+            "items/tvhc_1",
+            "items/tvhc_2",
+            "items/tvhc_3",
+            "items/tvhc_4",
+            "items/tvhc_5",
+            "items/tvhc_6",
+            "items/tvhc_7",
+            "items/tvhc_8",
+            "items/tvhc_9",
+            "items/ghmily_1",
+            "items/ghmily_2",
+            "items/ghmily_3",
+            "items/ghmily_4",
+            "items/ghmily_5",
+            "items/ghmily_6",
+            "items/ghmily_7",
+            "items/ghmily_8",
+            "items/ilysf_1",
+            "items/ilysf_2",
+            "items/ilysf_3",
+            "items/ilysf_4",
+            "items/ilysf_5",
+            "items/ilysf_6",
+            "items/ilysf_7",
+            "items/ilysf_8",
+            "items/ilysf_9",
+            "items/ilysf_10",
+            "items/hello2_baby1",
+            "items/hello2_baby2",
+            "items/hello2_baby3",
+            "items/hello2_baby4",
+            "items/hello2_baby5",
+            "items/hello2_baby6",
+            "items/hello2_baby7",
+            "items/hello2_baby8",
+            "items/hello2_baby9",
+            "items/hello2_baby10",
+            "items/hello2_baby11",
+            "items/hello2_baby12",
+            "items/hello2_baby13",
+            "items/hello2_baby14",
+            "items/hello2_baby15"
+        ],
+        "shuffle": false
+    }
+}

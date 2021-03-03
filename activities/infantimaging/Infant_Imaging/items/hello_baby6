@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hello_baby6",
+    "prefLabel": "audio image record item",
+    "description": "This is a audio image record item.",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "image": "https://picsum.photos/500/400",
+    "question": "Imagine that the baby looked at you and you are greeting the baby with a "hello."",
+    "ui": {
+        "inputType": "audioImageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000,
+        "multipleChoice": false
+    }
+}
