@@ -4,7 +4,7 @@
     "@id": "ghmily_1",
     "prefLabel": "Guess How Much I Love You",
     "description": "This is a audio image record item.",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "image": "https://picsum.photos/500/400",
     "question": "Pretend you are reading to a baby",
