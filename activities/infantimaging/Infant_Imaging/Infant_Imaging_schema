@@ -148,7 +148,7 @@
                 "variableName": "tvhc_2",
                 "isVis": true
                 },
-                {"isAbout": ""items/tvhc_3",
+                {"isAbout": "items/tvhc_3",
                 "variableName": "tvhc_3",
                 "isVis": true
                 },
@@ -308,6 +308,7 @@
                 "variableName": "hello2_baby15",
                 "isVis": true
                 }
+
         ],
         "order": [
             "items/hello_baby1",

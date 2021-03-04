@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "image": "https://picsum.photos/500/400",
-    "question": "Imagine that the baby looked at you and you are greeting the baby with a "hello."",
+    "question": "Imagine that the baby looked at you and you are greeting the baby with a hello.",
     "ui": {
         "inputType": "audioImageRecord"
     },
