@@ -2,7 +2,6 @@
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
 
-            "mm": "https://raw.githubusercontent.com/MulliganF02/InfantImaging/master/activities/Infant_Imaging",
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
     ],
@@ -16,53 +15,53 @@
     "ui": {
         "addProperties": [
 
-                {"isAbout": "mm:items/excerpt1_schema",
+                {"isAbout": "excerpt1/items/excerpt1_schema",
                 "variableName": "Excerpt 1",
                 "isVis": true
                 },
 
-                {"isAbout": "mm:items/excerpt2_schema",
+                {"isAbout": "excerpt2/items/excerpt2_schema",
                 "variableName": "Excerpt 2",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/excerpt3_schema",
+                {"isAbout": "excerpt3/items/excerpt3_schema",
                 "variableName": "Excerpt 3",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/excerpt4_schema",
+                {"isAbout": "excerpt4/items/excerpt4_schema",
                 "variableName": "Excerpt 4",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/excerpt5_schema",
+                {"isAbout": "excerpt5/items/excerpt5_schema",
                 "variableName": "Excerpt 5",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/excerpt6_schema",
+                {"isAbout": "excerpt6/items/excerpt6_schema",
                 "variableName": "Excerpt 6",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/excerpt7_schema",
+                {"isAbout": "excerpt7/items/excerpt7_schema",
                 "variableName": "Excerpt 7",
                 "isVis": true
-                },{"isAbout": "mm:items/excerpt8_schema",
+                },{"isAbout": "excerpt8/items/excerpt8_schema",
                 "variableName": "Excerpt 8",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/excerpt9_schema",
+                {"isAbout": "excerpt9/items/excerpt9_schema",
                 "variableName": "Excerpt 9",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:items/excerpt1_schema",
-            "mm:items/excerpt2_schema",
-            "mm:items/excerpt3_schema",
-            "mm:items/excerpt4_schema",
-            "mm:items/excerpt5_schema",
-            "mm:items/excerpt6_schema",
-            "mm:items/excerpt7_schema",
-            "mm:items/excerpt8_schema",
-            "mm:items/excerpt9_schema"
+            "excerpt1/items/excerpt1_schema",
+            "excerpt2/items/excerpt2_schema",
+            "excerpt3/items/excerpt3_schema",
+            "excerpt4/items/excerpt4_schema",
+            "excerpt5/items/excerpt5_schema",
+            "excerpt6/items/excerpt6_schema",
+            "excerpt7/items/excerpt7_schema",
+            "excerpt8/items/excerpt8_schema",
+            "excerpt9/items/excerpt9_schema"
         ],
         "shuffle": false
     }

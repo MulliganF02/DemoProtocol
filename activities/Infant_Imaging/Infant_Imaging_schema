@@ -1,7 +1,7 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
-            "mm": "https://raw.githubusercontent.com/MulliganF02/InfantImaging/master/activities/Infant_Imaging",
+
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
     ],
@@ -13,24 +13,24 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:items/hellobaby1_schema",
+                {"isAbout": "hellotask1/items/hellobaby1_schema",
                 "variableName": "hellobaby1_schema",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/readingtasks_schema",
+                {"isAbout": "readingtasks/items/readingtasks_schema",
                 "variableName": "readingtasks_schema",
                 "isVis": true
                 },
-                {"isAbout": "mm:items/hellobaby2_schema",
+                {"isAbout": "hellotask2/items/hellobaby2_schema",
                 "variableName": "hellobaby2_schema",
                 "isVis": true
                 }
 
         ],
         "order": [
-            "mm:items/hellobaby1_schema",
-            "mm:items/hellobaby1_schema",
-            "mm:items/hellobaby2_schema"
+            "items/hellobaby1_schema",
+            "items/readingtasks_schema",
+            "items/hellobaby2_schema"
         ],
         "shuffle": false
     }
