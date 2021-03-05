@@ -13,7 +13,7 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "hellotask1/items/hellobaby1_schema",
+                {"isAbout": "hellotask1/hellobaby1_schema",
                 "variableName": "hellobaby1_schema",
                 "isVis": true
                 },
@@ -21,16 +21,16 @@
                 "variableName": "readingtasks_schema",
                 "isVis": true
                 },
-                {"isAbout": "hellotask2/items/hellobaby2_schema",
+                {"isAbout": "hellotask2/hellobaby2_schema",
                 "variableName": "hellobaby2_schema",
                 "isVis": true
                 }
 
         ],
         "order": [
-            "items/hellobaby1_schema",
-            "items/readingtasks_schema",
-            "items/hellobaby2_schema"
+            "hellotask1/hellobaby1_schema",
+            "readingtasks/items/readingtasks_schema",
+            "hellotask2/hellobaby2_schema"
         ],
         "shuffle": false
     }
