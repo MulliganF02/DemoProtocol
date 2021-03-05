@@ -53,15 +53,15 @@
                 }
         ],
         "order": [
-            "excerpt1/items/excerpt1_schema",
-            "excerpt2/items/excerpt2_schema",
-            "excerpt3/items/excerpt3_schema",
-            "excerpt4/items/excerpt4_schema",
-            "excerpt5/items/excerpt5_schema",
-            "excerpt6/items/excerpt6_schema",
-            "excerpt7/items/excerpt7_schema",
-            "excerpt8/items/excerpt8_schema",
-            "excerpt9/items/excerpt9_schema"
+            "excerpt1/excerpt1_schema",
+            "excerpt2/excerpt2_schema",
+            "excerpt3/excerpt3_schema",
+            "excerpt4/excerpt4_schema",
+            "excerpt5/excerpt5_schema",
+            "excerpt6/excerpt6_schema",
+            "excerpt7/excerpt7_schema",
+            "excerpt8/excerpt8_schema",
+            "excerpt9/excerpt9_schema"
         ],
         "shuffle": false
     }
