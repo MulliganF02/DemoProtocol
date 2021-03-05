@@ -1,0 +1,45 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "excerpt4_schema",
+    "prefLabel": "Screening",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/owl_babies3",
+                "variableName": "owl_babies3",
+                "isVis": true
+                },
+                {"isAbout": "items/owl_babies4",
+                "variableName": "owl_babies4",
+                "isVis": true
+                },
+                {"isAbout": "items/owl_babies5",
+                "variableName": "owl_babies5",
+                "isVis": true
+                },
+                {"isAbout": "items/owl_babies6",
+                "variableName": "owl_babies6",
+                "isVis": true
+                },
+                {"isAbout": "items/owl_babies7",
+                "variableName": "owl_babies2",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/owl_babies3",
+            "items/owl_babies4",
+            "items/owl_babies5",
+            "items/owl_babies6",
+            "items/owl_babies7"
+        ],
+        "shuffle": false
+    }
+}

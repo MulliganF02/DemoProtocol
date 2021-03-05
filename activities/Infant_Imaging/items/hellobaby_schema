@@ -1,0 +1,96 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "hellobaby_schema",
+    "prefLabel": "Hello Recordings",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "preamble": "Hello Recordings:<br> <br><br>. Imagine the baby looked at you and you are greeting them with a hello. <br><br>",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/hello_baby1",
+                "variableName": "hello_baby1",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby2",
+                "variableName": "hello_baby2",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby3",
+                "variableName": "hello_baby3",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby4",
+                "variableName": "hello_baby4",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby5",
+                "variableName": "hello_baby5",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby6",
+                "variableName": "hello_baby6",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby7",
+                "variableName": "hello_baby7",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby8",
+                "variableName": "hello_baby8",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby9",
+                "variableName": "hello_baby9",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby10",
+                "variableName": "hello_baby10",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby11",
+                "variableName": "hello_baby11",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby12",
+                "variableName": "hello_baby12",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby13",
+                "variableName": "hello_baby13",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby14",
+                "variableName": "hello_baby14",
+                "isVis": true
+                },
+                {"isAbout": "items/hello_baby15",
+                "variableName": "hello_baby15",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/hello_baby1",
+            "items/hello_baby2",
+            "items/hello_baby3",
+            "items/hello_baby4",
+            "items/hello_baby5",
+            "items/hello_baby6",
+            "items/hello_baby7",
+            "items/hello_baby8",
+            "items/hello_baby9",
+            "items/hello_baby10",
+            "items/hello_baby11",
+            "items/hello_baby12",
+            "items/hello_baby13",
+            "items/hello_baby14",
+            "items/hello_baby15"
+        ],
+        "shuffle": false
+    }
+}

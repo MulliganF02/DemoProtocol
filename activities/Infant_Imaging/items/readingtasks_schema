@@ -1,0 +1,69 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+
+            "mm": "https://raw.githubusercontent.com/MulliganF02/InfantImaging/master/activities/Infant_Imaging",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "readingtasks_schema",
+    "prefLabel": "reading tasks",
+    "description": "Reading tasks",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "preamble": "READING TASK:<br> <br><br>. We will now show you nine excerpts from baby books.<br>For each READING TASK, we ask that you please continue to imagine reading to a baby. <br><br>",
+    "ui": {
+        "addProperties": [
+
+                {"isAbout": "mm:items/excerpt1_schema",
+                "variableName": "Excerpt 1",
+                "isVis": true
+                },
+
+                {"isAbout": "mm:items/excerpt2_schema",
+                "variableName": "Excerpt 2",
+                "isVis": true
+                },
+                {"isAbout": "mm:items/excerpt3_schema",
+                "variableName": "Excerpt 3",
+                "isVis": true
+                },
+                {"isAbout": "mm:items/excerpt4_schema",
+                "variableName": "Excerpt 4",
+                "isVis": true
+                },
+                {"isAbout": "mm:items/excerpt5_schema",
+                "variableName": "Excerpt 5",
+                "isVis": true
+                },
+                {"isAbout": "mm:items/excerpt6_schema",
+                "variableName": "Excerpt 6",
+                "isVis": true
+                },
+                {"isAbout": "mm:items/excerpt7_schema",
+                "variableName": "Excerpt 7",
+                "isVis": true
+                },{"isAbout": "mm:items/excerpt8_schema",
+                "variableName": "Excerpt 8",
+                "isVis": true
+                },
+                {"isAbout": "mm:items/excerpt9_schema",
+                "variableName": "Excerpt 9",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "mm:items/excerpt1_schema",
+            "mm:items/excerpt2_schema",
+            "mm:items/excerpt3_schema",
+            "mm:items/excerpt4_schema",
+            "mm:items/excerpt5_schema",
+            "mm:items/excerpt6_schema",
+            "mm:items/excerpt7_schema",
+            "mm:items/excerpt8_schema",
+            "mm:items/excerpt9_schema"
+        ],
+        "shuffle": false
+    }
+}

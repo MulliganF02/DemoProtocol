@@ -1,0 +1,66 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "tvhc_schema",
+    "prefLabel": "Screening",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/tvhc_1",
+                "variableName": "tvhc_1",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_2",
+                "variableName": "tvhc_2",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_3",
+                "variableName": "tvhc_3",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_4",
+                "variableName": "tvhc_4",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_5",
+                "variableName": "tvhc_5",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_6",
+                "variableName": "tvhc_6",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_7",
+                "variableName": "tvhc_7",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_8",
+                "variableName": "tvhc_8",
+                "isVis": true
+                },
+                {"isAbout": "items/tvhc_9",
+                "variableName": "tvhc_9",
+                "isVis": true
+                }
+
+        ],
+        "order": [
+            "items/tvhc_1",
+            "items/tvhc_2",
+            "items/tvhc_3",
+            "items/tvhc_4",
+            "items/tvhc_5",
+            "items/tvhc_6",
+            "items/tvhc_7",
+            "items/tvhc_8",
+            "items/tvhc_9"
+        ],
+        "shuffle": false
+    }
+}

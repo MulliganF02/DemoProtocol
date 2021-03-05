@@ -1,0 +1,45 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "excerpt1_schema",
+    "prefLabel": "Screening",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/night_moon1",
+                "variableName": "night_moon1",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon2",
+                "variableName": "night_moon2",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon3",
+                "variableName": "night_moon3",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon4",
+                "variableName": "night_moon4",
+                "isVis": true
+                },
+                {"isAbout": "items/night_moon5",
+                "variableName": "night_moon5",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/night_moon1",
+            "items/night_moon2",
+            "items/night_moon3",
+            "items/night_moon4",
+            "items/night_moon5"
+        ],
+        "shuffle": false
+    }
+}

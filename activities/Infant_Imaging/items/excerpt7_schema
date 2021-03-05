@@ -1,0 +1,50 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "excerpt7_schema",
+    "prefLabel": "Screening",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/ghmily_3",
+                "variableName": "ghmily_3",
+                "isVis": true
+                },
+                {"isAbout": "items/ghmily_4",
+                "variableName": "ghmily_4",
+                "isVis": true
+                },
+                {"isAbout": "items/ghmily_5",
+                "variableName": "ghmily_5",
+                "isVis": true
+                },
+                {"isAbout": "items/ghmily_6",
+                "variableName": "ghmily_6",
+                "isVis": true
+                },
+                {"isAbout": "items/ghmily_7",
+                "variableName": "ghmily_7",
+                "isVis": true
+                },
+                {"isAbout": "items/ghmily_8",
+                "variableName": "ghmily_8",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/ghmily_3",
+            "items/ghmily_4",
+            "items/ghmily_5",
+            "items/ghmily_6",
+            "items/ghmily_7",
+            "items/ghmily_8"
+        ],
+        "shuffle": false
+    }
+}
