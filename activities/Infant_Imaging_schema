@@ -13,7 +13,7 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "hellotasks1/hellotask1/hellobaby1_schema",
+                {"isAbout": "hellotasks1/hellotask1/hellobaby_schema",
                 "variableName": "hellobaby1_schema",
                 "isVis": true
                 },

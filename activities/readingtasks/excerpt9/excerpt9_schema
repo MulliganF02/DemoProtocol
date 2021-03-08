@@ -12,19 +12,19 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "ilysf_6",
+                {"isAbout": "items/ilysf_6",
                 "variableName": "ilysf_6",
                 "isVis": true
                 },
-                {"isAbout": "ilysf_7",
+                {"isAbout": "items/ilysf_7",
                 "variableName": "ilysf_7",
                 "isVis": true
                 },
-                {"isAbout": "ilysf_8",
+                {"isAbout": "items/ilysf_8",
                 "variableName": "ilysf_8",
                 "isVis": true
                 },
-                {"isAbout": "ilysf_9",
+                {"isAbout": "items/ilysf_9",
                 "variableName": "ilysf_9",
                 "isVis": true
                 },
