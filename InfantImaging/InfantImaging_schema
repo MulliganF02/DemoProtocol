@@ -33,7 +33,7 @@
       }
     ],
     "order": [
-      "../activities/Infant_Imaging/Infant_Imaging_schema"
+      "../activities/infantimaging_schema"
     ],
     "shuffle": false,
     "allow": [
