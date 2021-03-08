@@ -22,22 +22,26 @@
     }
   ],
   "ui": {
-    "addProperties": [
-      {
-        "isAbout": "../activities/Infant_Imaging_schema",
-        "variableName": "Infant_Imaging_schema",
-        "prefLabel": {
-          "en": "Infant Imaging",
-          "es": "Activity_es"
-        }
-      }
-    ],
-    "order": [
-      "../activities/Infant_Imaging_schema"
-    ],
-    "shuffle": false,
-    "allow": [
-      "reproschema:AllowExport"
-    ]
-  }
+ "addProperties": [
+                {"isAbout": "activities/hellotasks1/hellobaby1_schema",
+                "variableName": "hellobaby1_schema",
+                "isVis": true
+                },
+                {"isAbout": "activities/readingtasks/readingtasks_schema",
+                "variableName": "readingtasks_schema",
+                "isVis": true
+                },
+                {"isAbout": "activities/hellotasks2/hellobaby2_schema",
+                "variableName": "hellobaby2_schema",
+                "isVis": true
+                }
+
+        ],
+        "order": [
+            "activities/hellotasks1/hellobaby1_schema",
+            "activities/readingtasks/readingtasks_schema",
+            "activities/hellotask2/hellobaby2_schema"
+        ],
+        "shuffle": false
+    }
 }
