@@ -14,7 +14,7 @@
     "ui": {
         "addProperties": [
                 {"isAbout": "hellotasks1/hellobaby1_schema",
-                "variableName": "hellobaby_schema",
+                "variableName": "hellobaby1_schema",
                 "isVis": true
                 },
                 {"isAbout": "readingtasks/readingtasks_schema",
