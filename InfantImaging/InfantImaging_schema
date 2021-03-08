@@ -25,7 +25,7 @@
     "addProperties": [
       {
         "isAbout": "../activities/infantimaging_schema",
-        "variableName": "infantimaging_schema",
+        "variableName": "Infant_Imaging_schema",
         "prefLabel": {
           "en": "Infant Imaging",
           "es": "Activity_es"
@@ -33,7 +33,7 @@
       }
     ],
     "order": [
-      "../activities/infantimaging_schema"
+      "../activities/Infant_Imaging_schema"
     ],
     "shuffle": false,
     "allow": [
