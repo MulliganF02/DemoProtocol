@@ -10,8 +10,7 @@
     "description": "example of an activity",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "preamble": "Hello Recordings:<br> <br><br>. This is Phase 2 of the Hello Recordings,please continue to imagine the baby looked at you and you are greeting them with a hello. <br><br>",
-    "ui": {
+    "preamble": "Hello Recordings: This is Phase 2 of the Hello Recordings,please continue to imagine the baby looked at you and you are greeting them with a hello.",
         "addProperties": [
                 {"isAbout": "items/hello2_baby1",
                 "variableName": "hello2_baby1",
