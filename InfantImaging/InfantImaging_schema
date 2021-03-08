@@ -40,7 +40,7 @@
         "order": [
             "../activities/hellotasks1/hellobaby1_schema",
             "../activities/readingtasks/readingtasks_schema",
-            "../activities/hellotask2/hellobaby2_schema"
+            "../activities/hellotasks2/hellobaby2_schema"
         ],
         "shuffle": false
     }

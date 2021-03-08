@@ -7,7 +7,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "readingtasks_schema",
-    "prefLabel": "reading tasks",
+    "prefLabel": "Reading tasks",
     "description": "Reading tasks",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
