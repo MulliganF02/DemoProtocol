@@ -15,7 +15,7 @@
     "ui": {
         "addProperties": [
 
-                {"isAbout": ".../excerpt1/excerpt1_schema",
+                {"isAbout": "excerpt1/excerpt1_schema",
                 "variableName": "Excerpt 1",
                 "isVis": true
                 },
