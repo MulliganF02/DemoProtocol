@@ -25,14 +25,17 @@
  "addProperties": [
                 {"isAbout": "../activities/hellotasks1/hellobaby1_schema",
                 "variableName": "hellobaby1_schema",
+                "prefLabel": "Hello1",
                 "isVis": true
                 },
                 {"isAbout": "../activities/readingtasks/readingtasks_schema",
                 "variableName": "readingtasks_schema",
+                "prefLabel": "ReadingTasks",
                 "isVis": true
                 },
                 {"isAbout": "../activities/hellotasks2/hellobaby2_schema",
                 "variableName": "hellobaby2_schema",
+                "prefLabel": "Hello2",
                 "isVis": true
                 }
 
