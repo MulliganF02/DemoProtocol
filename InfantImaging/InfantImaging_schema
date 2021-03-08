@@ -24,7 +24,7 @@
   "ui": {
     "addProperties": [
       {
-        "isAbout": "../activities/infantimaging_schema",
+        "isAbout": "../activities/Infant_Imaging_schema",
         "variableName": "Infant_Imaging_schema",
         "prefLabel": {
           "en": "Infant Imaging",
