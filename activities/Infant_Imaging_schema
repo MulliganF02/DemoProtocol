@@ -28,7 +28,7 @@
 
         ],
         "order": [
-            "hellotask1/hellobaby1_schema",
+            "hellotasks1/hellobaby1_schema",
             "readingtasks/readingtasks_schema",
             "hellotask2/hellobaby2_schema"
         ],
