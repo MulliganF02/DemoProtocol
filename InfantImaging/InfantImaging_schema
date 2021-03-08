@@ -23,24 +23,24 @@
   ],
   "ui": {
  "addProperties": [
-                {"isAbout": "activities/hellotasks1/hellobaby1_schema",
+                {"isAbout": "../activities/hellotasks1/hellobaby1_schema",
                 "variableName": "hellobaby1_schema",
                 "isVis": true
                 },
-                {"isAbout": "activities/readingtasks/readingtasks_schema",
+                {"isAbout": "../activities/readingtasks/readingtasks_schema",
                 "variableName": "readingtasks_schema",
                 "isVis": true
                 },
-                {"isAbout": "activities/hellotasks2/hellobaby2_schema",
+                {"isAbout": "../activities/hellotasks2/hellobaby2_schema",
                 "variableName": "hellobaby2_schema",
                 "isVis": true
                 }
 
         ],
         "order": [
-            "activities/hellotasks1/hellobaby1_schema",
-            "activities/readingtasks/readingtasks_schema",
-            "activities/hellotask2/hellobaby2_schema"
+            "../activities/hellotasks1/hellobaby1_schema",
+            "../activities/readingtasks/readingtasks_schema",
+            "../activities/hellotask2/hellobaby2_schema"
         ],
         "shuffle": false
     }
